@@ -1,0 +1,153 @@
+<resources>
+    <string name="app_name">广告机APP</string>
+    <string name="tv_doctor">医生</string>
+    <string name="tv_nurse">护士</string>
+
+    <string name="et_input_hint">请输入姓名</string>
+
+
+    <string name="tv_state_kan">看诊</string>
+    <string name="tv_state_deng">等候</string>
+    <string name="tv_state_guo">过号</string>
+
+
+    <string name="btn_stop_kan">停止看诊</string>
+    <string name="btn_comfirm">确认挂号</string>
+    <string name="btn_next">下一位</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_setting">标题设置</string>
+    <string name="title_setting_video">视频设置</string>
+    <string name="title_setting_tj">显示设置</string>
+    <string name="title_setting_gh">房厅设置</string>
+    <string name="title_setting_banquan">版权声明</string>
+    <string name="title_setting_notice">公告设置</string>
+    <string name="title_setting_switch">开关设置</string>
+
+
+    <string name="td_tj_select">清除记录</string>
+    <string name="td_tj_all">当天总挂号人数:</string>
+    <string name="td_tj_yk">当天已看病人数:</string>
+    <string name="td_tj_wk">当天待看病人数:</string>
+    <string name="tv_person">人</string>
+
+    <string name="btn_delete">删除</string>
+    <string name="btn_print">打印</string>
+    <string name="btn_setting">设定</string>
+    <string name="btn_update">修改</string>
+    <string name="btn_update_user">优先</string>
+    <string name="btn_update_gh">过号</string>
+    <string name="onreflash">更新数据成功</string>
+    <string name="no">号</string>
+    <string name="add_person">正在操作...</string>
+    <string name="add_person_success">添加成功</string>
+    <string name="add_person_faile">添加失败</string>
+    <string name="net_work_error">网络异常</string>
+
+    <string name="comfirm">确认</string>
+    <string name="cancle">取消</string>
+    <string name="rm_person">正在操作...</string>
+    <string name="rm_user_waring">警告</string>
+    <string name="rm_user_success">移除成功</string>
+    <string name="rm_user_faile">移除失败</string>
+    <string name="if_rm_user">是否移除:</string>
+    <string name="opr_user">是否优先排号:</string>
+    <string name="opr_user_success">操作成功</string>
+    <string name="opr_user_faile">操作失败</string>
+    <string name="opr_clear_data">是否清除记录</string>
+
+    <string name="ipAddr">请输入主机IP地址</string>
+    <string name="ipmachine">请输入机器码</string>
+    <string name="ipAddrNo">请输入主机编号</string>
+    <string name="linkipAddr">登录</string>
+    <string name="linkcancle">取消</string>
+
+    <string name="setting_title">标题设置</string>
+    <string name="setting_order_title">包厢使用情况</string>
+    <string name="setting_pm_title">公告信息栏设置(最大输入200字)</string>
+    <string name="add_video_url">增加电视节目</string>
+
+
+    <string name="str_last_video">第一个节目</string>
+    <string name="str_next_video">下一个节目</string>
+    <string name="str_stop_video">暂停/恢复播放</string>
+    <string name="add_vide_info_notice">是否确认添加该播放路径？</string>
+
+    <string name="str_last_img">第一张图片</string>
+    <string name="str_next_img">下一张图片</string>
+    <string name="str_stop_img">固定/恢复轮播</string>
+
+
+    <string name="main_zj_sdcard">主机图片存放目录</string>
+    <string name="main_switch_voice">叫号语音设置</string>
+    <string name="main_switch_print">展示右边图片</string>
+    <string name="main_switch_full_scrren">展示标题抬头</string>
+    <string name="main_switch_full_notice">显示即时資訊</string>
+    <string name="main_switch_clear_data">包廂使用資料</string>
+    <string name="main_setting_delay">设置广告时间</string>
+    <string name="main_right_setting_delay">设置右边广告时间</string>
+
+
+    <string name="main_video_settting">媒体播放设置</string>
+    <string name="video_settting">视频</string>
+    <string name="img_settting">图片</string>
+    <string name="setting">设定</string>
+    <string name="opne_ly">请打开蓝牙并连接蓝牙打印机</string>
+
+    <string name="input_limit">最大限制輸入200个文字</string>
+
+    <string name="room_name">房间名</string>
+    <string name="room_title">房间主题</string>
+    <string name="input_room_name">请输入房间名</string>
+    <string name="input_room_title">请输入房间主题</string>
+    <string name="room_desc">房间描述</string>
+    <string name="input_room_desc">请输入房间描述</string>
+    <string name="add_room_title">添加房间</string>
+
+    <string name="select_mac">选择主机</string>
+    <string name="add_mac">添加主机</string>
+    <string name="delete_mac">是否删除主机%s</string>
+    <string name="btn_settting">设定使用</string>
+    <string name="second_time">图片播放间隔时间不少于2秒</string>
+    <string name="second_err_time">输入的数值不可以超过99秒</string>
+
+
+    <string name="error_msg">连接系统失败,请检测主机IP是否正确!!!</string>
+
+    <string-array name="setting_array">
+        <item>输入房间主题/描述</item>
+        <item>清除房间主题/描述</item>
+    </string-array>
+
+    <string-array name="notice_items">
+        <item>社区公告</item>
+        <item>最近更新</item>
+        <item>店长推荐</item>
+        <item>本周优惠</item>
+        <item>热销商品</item>
+        <item>双重好礼</item>
+        <item>会员召集</item>
+        <item>访客通知</item>
+        <item>移车通知</item>
+    </string-array>
+
+    <string name="protical_text">版权声明\n
+本广告机播放的内容，包括文字、图片、视频、除了所有者自己创作外，大部份均在网上蒐集。
+观看者可将本广告机提供的内容用于个人学习、研究或欣赏，以及其他非商业性或非盈利性用途。但同时应遵守著作权法及其他相关法律的规定，不得侵犯相关权利人的合法权利。除此以外，将本广告机任何内容用于其他用途时，须徵得相关权利人的书面许可，并支付报酬。\n
+　　\t\t\t本广告机内容原作者如不愿意在本广告机播放，请及时通知所有者，予以删除。
+</string>
+    <string name="mp_confirm">确认</string>
+
+    <string name="mp_image">图片</string>
+    <string name="mp_audio">音频</string>
+    <string name="mp_video">视频</string>
+    <string name="mp_select_image">选择图片</string>
+    <string name="mp_select_audio">选择音频</string>
+    <string name="mp_select_video">选择视频</string>
+    <string name="mp_formatted_zero_time">00:00</string>
+
+    <string name="mp_all_images">所有图片</string>
+    <string name="mp_all_audios">所有音频</string>
+    <string name="mp_all_videos">所有视频</string>
+    <string name="mp_warn_get_permissions_rationale">请允许权限以便展示多媒体资源</string>
+
+</resources>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/main_bg_color"
+    tools:context=".TjActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@drawable/txt_comfirm_black_bg"
+        android:gravity="center"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:id="@+id/tvClearData"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="26sp"
+            android:gravity="center"
+            android:textColor="#FAFB00"
+            android:text="@string/td_tj_select"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="@drawable/txt_comfirm_bg2"
+        android:gravity="center|left"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="@android:color/white"
+            android:text="@string/td_tj_all"
+            />
+        <TextView
+            android:id="@+id/tvAllPerson"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:textColor="@android:color/white"
+            android:text="0"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="@android:color/white"
+            android:text="@string/tv_person"
+            android:layout_marginLeft="5dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="@drawable/btn_comfirm_bg"
+        android:gravity="center|left"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="@android:color/white"
+            android:text="@string/td_tj_yk"
+            />
+        <TextView
+            android:id="@+id/tvYk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:textColor="@android:color/white"
+            android:text="0"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="@android:color/white"
+            android:text="@string/tv_person"
+            android:layout_marginLeft="5dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="@drawable/btn_delete_bg"
+        android:gravity="center|left"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="@android:color/white"
+            android:text="@string/td_tj_wk"
+            />
+
+        <TextView
+            android:id="@+id/tvWk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:textColor="@android:color/white"
+            android:text="0"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="@android:color/white"
+            android:text="@string/tv_person"
+            android:layout_marginLeft="5dp"
+            />
+    </LinearLayout>
+</LinearLayout>

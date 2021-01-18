@@ -1,0 +1,49 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+}
+//allprojects {
+//    repositories {
+//        maven { url "https://jitpack.io" }
+//    }
+//}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    testImplementation 'junit:junit:4.12'
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'com.google.code.gson:gson:2.2.4'
+//    compile 'com.squareup.okhttp:okhttp:2.0.0'
+    implementation 'com.github.bumptech.glide:glide:3.6.1'
+    implementation files('libs/microlog4android-1.1.jar')
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.nineoldandroids:library:2.4.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.7.0'
+    //    compile 'com.github.franmontiel:PersistentCookieJar:v0.9.3'
+    ////<!--下载-https://gold.xitu.io/entry/5850f475570c350069de3403->
+    //    compile 'com.arialyy.aria:Aria:2.3.2'
+    //压缩图片
+    implementation 'top.zibin:Luban:1.1.8'
+}

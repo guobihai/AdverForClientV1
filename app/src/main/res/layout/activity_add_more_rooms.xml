@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/main_bg_color"
+    tools:context=".AddHostActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toobar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        app:navigationIcon="@drawable/ic_arrow_back_white_24dp"
+        app:title=""
+        >
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/add_room_title"
+            android:textColor="@android:color/white"
+            android:textSize="22sp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@drawable/login_linner_bg"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:id="@+id/ipAddrNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/room_name"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+
+        <EditText
+            android:id="@+id/etRoomName"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/black"
+            android:background="@drawable/edittext_input_bg"
+            android:hint="@string/input_room_name"
+            android:maxLength="4"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/tvRoomTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/room_name"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+
+        <EditText
+            android:id="@+id/etRoomName1"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/black"
+            android:background="@drawable/edittext_input_bg"
+            android:hint="@string/input_room_name"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/tvRoomDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/room_name"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+
+        <EditText
+            android:id="@+id/etRoomName2"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/black"
+            android:background="@drawable/edittext_input_bg"
+            android:hint="@string/input_room_name"
+            android:inputType="text" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_nomal_bg"
+                android:text="@string/linkcancle"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_login_bg"
+                android:text="添加"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

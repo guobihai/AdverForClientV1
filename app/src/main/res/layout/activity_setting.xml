@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/main_bg_color"
+    tools:context=".SettingActivity">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            tools:context=".SettingActivity">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/setting_title"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/etTitle"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edittext_input_bg"
+                android:gravity="top|left"
+                android:hint="@string/setting_title"
+                android:maxLength="12"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnTitleComfirm"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/btn_delete_bg"
+                android:text="@string/comfirm"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvOrderTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/setting_order_title"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/etOrderTitle"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edittext_input_bg"
+                android:gravity="top|left"
+                android:hint="@string/setting_order_title"
+                android:maxLength="10"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnOrderTitleComfirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/btn_delete_bg"
+                android:text="@string/comfirm"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

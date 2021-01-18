@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hostLayout"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvIpHostNo"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_centerVertical="true"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:gravity="center"
+        android:text="1"
+        android:layout_margin="1dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="22sp" />
+    <TextView
+        android:id="@+id/tvIpHost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/tvIpHostNo"
+        android:layout_marginLeft="5dp"
+        android:text="192.168.2.2"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:drawableLeft="@drawable/ic_personal_video_black_24dp"
+        android:drawablePadding="5dp"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/btnConnect"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/btn_login_bg"
+        android:padding="5dp"
+        android:paddingBottom="5dp"
+        android:gravity="center"
+        android:text="@string/linkipAddr"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+</RelativeLayout>

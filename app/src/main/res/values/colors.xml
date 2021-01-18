@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F536E</color>
+    <color name="colorPrimaryDark">#3F536E</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="main_bg_color">#E0E0B1</color>
+    <color name="colorGuoHao">#EBD3E8</color>
+
+    <color name="item_title_color1">#00B9F7</color>
+    <color name="item_title_color2">#DE54E9</color>
+
+    <color name="item_content_tv_color1">#6A43BB</color>
+    <color name="item_content_color1">#EFE7AC</color>
+    <color name="item_content_color2">#FF7100</color>
+</resources>

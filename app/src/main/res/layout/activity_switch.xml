@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg_color"
+    android:divider="@drawable/divider_line"
+    android:orientation="vertical"
+    android:showDividers="middle|end|beginning"
+    tools:context=".SwitchActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/main_zj_sdcard"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:text="/sdcard/smartinfo/"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:padding="5dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/main_switch_print"
+            android:textSize="16sp" />
+
+        <Switch
+            android:id="@+id/switchPrint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:checked="true"
+            android:gravity="center" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="清除所有文件"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnDeleteFile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/white"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/btn_comfirm_bg"
+            android:text="@string/comfirm"
+            android:gravity="center" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:visibility="gone"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/main_switch_voice"
+            android:textSize="16sp" />
+
+        <Switch
+            android:id="@+id/switchVoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:checked="true"
+            android:gravity="center" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/main_video_settting"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/switchGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:checked="true"
+            android:gravity="center|top"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/raVideoSetting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/video_settting"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/raImgSetting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/img_settting"
+                android:textSize="16sp" />
+        </RadioGroup>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/main_setting_delay"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_delay"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:inputType="number"
+            android:textColor="@android:color/black"
+            android:background="@drawable/edittext_input_bg"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/btnSetdelayTime" />
+
+        <Button
+            android:id="@+id/btnSetdelayTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/btn_comfirm_bg"
+            android:checked="true"
+            android:gravity="center"
+            android:text="@string/comfirm"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/main_right_setting_delay"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_rightdelay"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:inputType="number"
+            android:textColor="@android:color/black"
+            android:background="@drawable/edittext_input_bg"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/btnRightSetdelayTime" />
+
+        <Button
+            android:id="@+id/btnRightSetdelayTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/btn_comfirm_bg"
+            android:checked="true"
+            android:gravity="center"
+            android:text="@string/comfirm"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+</LinearLayout>
